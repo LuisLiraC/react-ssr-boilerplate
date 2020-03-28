@@ -1,0 +1,50 @@
+{
+  "name": "react-ssr-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli --config webpack.config.js",
+    "dev": "nodemon src/server/index",
+    "start": "node src/server"
+  },
+  "keywords": [],
+  "author": "LuisLiraC <luisliradev@gmail.com> (https://luislira.xyz/)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "7.8.7",
+    "@babel/register": "7.9.0",
+    "asset-require-hook": "1.2.0",
+    "axios": "0.19.2",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "helmet": "3.22.0",
+    "history": "4.10.1",
+    "ignore-styles": "5.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-hot-loader": "4.12.20",
+    "react-router": "5.1.2",
+    "react-router-config": "5.1.1",
+    "react-router-dom": "5.1.2",
+    "styled-components": "5.0.1",
+    "webpack": "4.42.1",
+    "webpack-dev-middleware": "3.7.2",
+    "webpack-hot-middleware": "2.25.0",
+    "webpack-manifest-plugin": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "file-loader": "5.0.0",
+    "nodemon": "2.0.2",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  }
+}
